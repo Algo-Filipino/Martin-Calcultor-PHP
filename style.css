@@ -1,0 +1,39 @@
+.container {
+    margin-top: 30px;
+}
+.calculator {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 20px;
+}
+.calculator h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.calculator form {
+    margin-bottom: 0;
+}
+.calculator .form-group {
+    margin-bottom: 20px;
+}
+.calculator .form-control {
+    font-size: 24px;
+    height: auto;
+    padding: 10px;
+    text-align: right;
+}
+.calculator .btn-block {
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px;
+}
+@media (max-width: 767px) {
+    .calculator .btn-block {
+        font-size: 20px;
+    }
+    .calculator .form-control {
+        font-size: 20px;
+    }
+}
